@@ -14,14 +14,15 @@ Job Listings Page is a web application that allows users to view, filter, search
 - Next.js
 - CSS
 
-## Deployement 
+## Deployment
 
-Click On - <a>job-hosting-platform.vercel.app</a>
+Click on the link to view the app: [Job Hosting Platform](https://job-hosting-platform.vercel.app)
 
 ## Installation
 To run the project locally, clone the repository and install the dependencies:
 ```bash
 git clone https://github.com/your-username/job-listings-page.git
+
 cd job-listings-page
 npm install
 npm run dev
