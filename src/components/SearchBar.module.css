@@ -1,0 +1,31 @@
+/* SearchBar.module.css */
+
+.searchContainer {
+    position: relative;
+    flex: 1; 
+    width: 100%;
+}
+  
+.searchIcon {
+    position: absolute;
+    left: 0.75rem;
+    top: 0.75rem;
+    color: #9ca3af; 
+}
+  
+.searchInput {
+    width: 100%; 
+    padding-left: 2.5rem; 
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease-in-out;
+}
+  
+.searchInput:focus {
+    outline: none;
+    border-color: #3b82f6; 
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2); 
+}

@@ -1,0 +1,39 @@
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .dialogContent {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 0.5rem;
+    max-width: 40rem; /* You can adjust this */
+    width: 90vw;
+    max-height: 90vh;
+    overflow-y: auto;
+    padding: 1.5rem; /* Customize padding */
+  }
+  
+  .closeButton {
+    color: #9ca3af; /* Tailwind's gray-400 */
+  }
+  
+  .closeButton:hover {
+    color: #4b5563; /* Tailwind's gray-600 */
+  }
+  
+  .applyButton {
+    width: 100%;
+    padding: 0.75rem 1.5rem;
+    background-color: #2563eb; /* Tailwind's blue-600 */
+    color: white;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .applyButton:hover {
+    background-color: #1d4ed8; /* Tailwind's blue-700 */
+  }
+  
